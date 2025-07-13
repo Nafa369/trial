@@ -1,0 +1,105 @@
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body{
+    width: 100%;
+    margin: 0 auto;
+}
+.header{
+    width: 100%;
+    margin: 0% auto;
+}
+.container{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.9)), url('../img/aku.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+}
+#navbar ul{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    font-weight: 600;
+    font-size: clamp(14, 5vw, 36px);
+    position: sticky;
+}
+#navbar li a{
+    text-decoration: none;
+    color: white;
+}
+#navbar li{
+    list-style: none
+}
+#navbar li a:hover{
+    border: 1px rgba(255, 255, 255, 0.4);
+    background-color: rgba(255, 255, 255, 0.4);
+    border-radius: 5px;
+    color: white;
+    transition: 0.3s;
+
+}
+.container2{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: clamp(36px, 5vw, 56px);
+    font-weight: 600;
+    height: auto;
+    margin-top: 7%;
+    margin-left: 2%;
+    display: flex;
+    align-items: center;
+    gap: 2%;
+}
+.container2 img{
+    width: 10%;
+    
+}
+.container3{
+    color: white;
+    margin-top: 2%;
+    margin-left: 2%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: clamp(60px, 5vw, 84px);
+    text-transform: uppercase;
+    font-weight: 700;
+}
+#container1{
+    background-color: black;
+    margin: auto;
+    padding: 100px;
+    text-align: center;
+    height: clamp(200px, 5vw, 400px);
+}
+#container1 span{
+    font-weight: 800;
+    font-size: 200%;
+    color: cyan;
+}
+#container1 p{
+    text-align: center;
+    display: flex;
+    word-spacing: 2px;
+    color: white;
+}
+
+#container2{
+    background-color: blue;
+    padding: 10px;
+}
+#container3{
+    background-color: yellow;
+    padding: 10px;
+}
+#container4{
+    background-color: green;
+    padding: 10px;
+}
+#container5{
+    background-color: pink;
+    padding: 10px;
+}
+.footer{
+    background-color: rgba(0, 0, 0, 0.9);
+    color: white;
+}
