@@ -227,8 +227,7 @@ body{
     grid-template-columns: 1fr;
     display: grid;
     gap: 10%;
-    height: 00px;
-    width: 30%;
+    width: 500px;
     align-items: center;
     justify-content:center ;
     margin: 0 auto;
@@ -247,7 +246,7 @@ input{
 }
 button{
     padding: 1rem;
-    width: 30%;
+    width: 100px;
     text-align: center;
     margin: 1rem auto 1rem auto;
     border-radius: 20%;
@@ -272,7 +271,7 @@ button:hover{
         font-size: 1.5rem;
     }
     .container3{
-        font-size: 2rem;
+        font-size: 3.5rem;
     }
     #container1{
         height: 600px;
@@ -322,6 +321,7 @@ button:hover{
     }
     .grid{
         margin-top: 20px;
+        font-size: 0.7rem;
     }
     #container4{
         height: 800px;
@@ -336,5 +336,20 @@ button:hover{
     }
     .tim{
         width: 300px;
+    }
+    #container5{
+        height: 600px;
+    }
+    .boxform{
+        width: 50px;
+        height: 0px;
+        padding: 10px;
+        margin-top: 50px;
+    }
+    input{
+        padding: 0.3rem;
+    }
+    button{
+        padding: 0.6rem;
     }
 }
