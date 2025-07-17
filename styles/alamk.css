@@ -259,6 +259,7 @@ button:hover{
 .footer{
     background-color: black;
     color: white;
+    height: 150px;
 }
 @media (max-width: 768px){
     #navbar ul{
