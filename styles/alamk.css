@@ -259,7 +259,38 @@ button:hover{
 .footer{
     background-color: black;
     color: white;
-    height: 150px;
+    text-align: center;
+}
+.footer1{
+    grid-template-columns: repeat(3 1fr);
+    display: flex;
+    background-color: red;
+    margin-top: 0;
+    justify-content: space-between;
+}
+#boxlogo{
+    display: flex;
+    padding: 20px;
+    height: 200px;
+    width: 600px;
+    margin: 10px;
+    background-color: black;
+    color: white;
+}
+#boxlogo img{
+    width: 10%;
+    height: 40%;
+}
+#boxlogo span{
+    font-size: 2rem;
+    padding-left: 10px;
+}
+#box{
+    display: flex;
+    height: 200px;
+    width: 200px;
+    margin: 10px;
+    background-color: black;
 }
 @media (max-width: 768px){
     #navbar ul{
