@@ -291,6 +291,16 @@ button:hover{
     width: 200px;
     margin: 10px;
     background-color: black;
+    color: white;
+}
+#box ul li{
+    list-style: none;
+    padding: 10px;
+    font-weight: 600;
+}
+#box a{
+    text-decoration: none;
+    color: white;
 }
 @media (max-width: 768px){
     #navbar ul{
