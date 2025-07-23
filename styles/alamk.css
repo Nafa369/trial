@@ -60,6 +60,7 @@ body{
     display: flex;
     align-items: center;
     gap: 2%;
+    animation: fadein 1.5s ease-in forwards;
 }
 .container2 img{
     width: 10%;
@@ -73,6 +74,7 @@ body{
     font-size: clamp(60px, 5vw, 84px);
     text-transform: uppercase;
     font-weight: 700;
+    animation: fadein 1.5s ease-in forwards;
 }
 #container1{
     background-color: white;
@@ -394,4 +396,13 @@ button:hover{
     button{
         padding: 0.6rem;
     }
+}
+@keyframes fadein{
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+
 }
