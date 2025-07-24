@@ -83,6 +83,7 @@ body{
     text-align: center;
     height: 100%;
     margin: 15%;
+    animation: fadein 1.5s ease-in forwards;
 }
 #container1 span{
     font-weight: 800;
@@ -201,7 +202,7 @@ body{
 }
 .tim{
     border: 2px solid white;
-    border-radius: 5%;
+    border-radius: 10px;
     width: 100%;
     display: flex;
     align-items: center;
@@ -214,6 +215,14 @@ body{
 }
 .tim span{
     color: white;
+}
+.tim:hover{
+    transform: scale(1.05);
+    transition: 0.3s ease-in;
+    background-color: white;
+    span{
+        color: black;
+    }
 }
 #container5{
     background-color: white;
@@ -228,53 +237,55 @@ body{
 .boxform{
     grid-template-columns: 1fr;
     display: grid;
-    gap: 10%;
-    width: 500px;
+    gap: 5%;
+    width: 300px;
     align-items: center;
     justify-content:center ;
     margin: 0 auto;
     font-weight: 600;
+    background-color: grey;
+    padding: 100px;
+    box-shadow: inset;
+    border-radius: 20px;
 }
 .form{
     grid-template-columns: 1fr;
     display: grid;
-    gap: 10%;
+    gap: 3%;
     text-align: center;
+    font-size: 1.2rem;
 }
 input{
-    padding: 1rem;
-    border-radius: 5%;
-    background-color: rgba(0, 0, 0, 0.5);
+    padding: 0.7rem;
+    border-radius: 10px;
+    background-color: white(255, 255, 255, 0.5);
 }
 button{
-    padding: 1rem;
+    padding: 0.7rem;
     width: 100px;
     text-align: center;
     margin: 1rem auto 1rem auto;
-    border-radius: 20%;
+    border-radius: 10px;
     background-color: white;
     cursor: pointer;
 }
 button:hover{
-    background-color: rgba(255, 255, 0, 0.6);
-}
-.footer{
-    background-color: black;
-    color: white;
-    text-align: center;
+    background-color: rgba(42, 99, 255, 0.6);
+    transition: 0.3s ease-in;
+
 }
 .footer1{
     grid-template-columns: repeat(3 1fr);
     display: flex;
-    background-color: red;
     margin-top: 0;
     justify-content: space-between;
+    background-color: black;
 }
 #boxlogo{
     display: flex;
     padding: 20px;
     height: 200px;
-    width: 600px;
+    width: 400px;
     margin: 10px;
     background-color: black;
     color: white;
